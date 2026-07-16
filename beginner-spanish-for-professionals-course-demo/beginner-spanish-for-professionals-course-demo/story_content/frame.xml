@@ -19,7 +19,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/66QoWO6zv1O.png" />
+              <option name="html5_logo_url" value="mobile/66EDEs1q2w9.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1592,8 +1592,8 @@
       <links>
         <slidelink slideid="_player.6iRUjXnSk1k" displaytext="Intro Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6iRUjXnSk1k.5VfPTUOND02" displaytext="Welcome" expand="false" type="slide" />
-            <slidelink slideid="_player.6iRUjXnSk1k.5uw8JyGoo2d" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6iRUjXnSk1k.5VfPTUOND02" displaytext="Welcome v1" expand="false" type="slide" />
+            <slidelink slideid="_player.6iRUjXnSk1k.5uw8JyGoo2d" displaytext="Welcome v2 " expand="false" type="slide" />
             <slidelink slideid="_player.6iRUjXnSk1k.6LFOveYanxj" displaytext="Course Objectives" expand="false" type="slide" />
             <slidelink slideid="_player.6iRUjXnSk1k.6Co3yciv0fE" displaytext="Meet The Spanish Vowels" expand="false" type="slide" />
             <slidelink slideid="_player.6iRUjXnSk1k.5u14YhrXBLq" displaytext="Knowledge Check" expand="false" type="slide" />
