@@ -2,80 +2,68 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5hiYbEtVB0m":
+      case "6j0fE2hnyq1":
         Script1();
         break;
-      case "6W6YDxaf1AA":
+      case "5s6sEHSXgrN":
         Script2();
         break;
-      case "635v8Ak2qxM":
+      case "6SmVyPxr9hy":
         Script3();
         break;
-      case "67av9jzWyVf":
+      case "6WiGO0cs0iq":
         Script4();
         break;
-      case "6Yb6FGtxz9k":
+      case "6qZmVRe88Zx":
         Script5();
         break;
-      case "6Ae84SoDqzD":
+      case "62mnvCXhx2F":
         Script6();
         break;
-      case "5g4eRPKNBIO":
+      case "6aYKa85hunr":
         Script7();
         break;
-      case "5fgDP2mX0eg":
+      case "5nsAzbk3V5P":
         Script8();
         break;
-      case "5d2fFH698TZ":
+      case "6K7BflCymIP":
         Script9();
         break;
-      case "62A2t3wTzUy":
+      case "6Ee4EaiOipD":
         Script10();
         break;
-      case "5zkih43Xdbu":
+      case "5iaprmaoLdZ":
         Script11();
         break;
-      case "5tPDgKor9Y7":
+      case "5fWWs6dqvFP":
         Script12();
         break;
-      case "6GzolMBbfLo":
+      case "5ypGDRUTlQ9":
         Script13();
         break;
-      case "6k2q08w0Agt":
+      case "6XL5mMKbWQq":
         Script14();
         break;
-      case "5dpysHxfwEy":
+      case "6BPqhOrB5Gr":
         Script15();
         break;
-      case "69QnGwP3tJH":
+      case "6nqUimRQdWl":
         Script16();
         break;
-      case "5qcfSPPQgOq":
+      case "66Uyde9oHRQ":
         Script17();
         break;
-      case "6Xkc1gBirqx":
+      case "5WMhpow5AeK":
         Script18();
         break;
-      case "6SwqOwEyZti":
+      case "5YIWUUqbwyd":
         Script19();
         break;
-      case "63fQ3R0xvC0":
+      case "6UO4oKTYHir":
         Script20();
         break;
-      case "6K7pEIz4l03":
+      case "5rhIw1gRbjH":
         Script21();
-        break;
-      case "5r362Mio9Jn":
-        Script22();
-        break;
-      case "5kocD5Gjfci":
-        Script23();
-        break;
-      case "6pREOaahubB":
-        Script24();
-        break;
-      case "6BvgHPheyc8":
-        Script25();
         break;
   }
 }
@@ -101,12 +89,12 @@ var keyup = player.keyup;
 window.Script1 = function()
 {
   player.once(() => {
-const target = object('6VSWst6qRyd');
+const target = object('5t6IcuDhoOS');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '5w5k1jPcnB3';
-const pulseAmount = 0.1;
-const delay = 29021;
+const id = '5XD3QQtUPPR';
+const pulseAmount = 0.07;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -124,12 +112,12 @@ target.animate(
 window.Script2 = function()
 {
   player.once(() => {
-const target = object('5zljIuJuySv');
+const target = object('6ZZalS6MoyC');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '6AEPmYqBgbF';
+const id = '5w5k1jPcnB3';
 const pulseAmount = 0.07;
-const delay = 29021;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -147,12 +135,12 @@ target.animate(
 window.Script3 = function()
 {
   player.once(() => {
-const target = object('5UrMA2Ze0ik');
+const target = object('5wmZk2Wfxjl');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '6SlWD5CQTYQ';
+const id = '6AEPmYqBgbF';
 const pulseAmount = 0.07;
-const delay = 29021;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -170,12 +158,12 @@ target.animate(
 window.Script4 = function()
 {
   player.once(() => {
-const target = object('5ff96rEc9MX');
+const target = object('5Viu8S19OuV');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '6ilJLsRZNgM';
+const id = '6SlWD5CQTYQ';
 const pulseAmount = 0.07;
-const delay = 29021;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -193,12 +181,12 @@ target.animate(
 window.Script5 = function()
 {
   player.once(() => {
-const target = object('5vnVusANncM');
+const target = object('6nC23sYWK0r');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '5XD3QQtUPPR';
+const id = '6ilJLsRZNgM';
 const pulseAmount = 0.07;
-const delay = 45938;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -216,12 +204,12 @@ target.animate(
 window.Script6 = function()
 {
   player.once(() => {
-const target = object('6VSWst6qRyd');
+const target = object('5t6IcuDhoOS');
 const duration = 2000;
 const easing = 'ease-out';
-const id = '5w5k1jPcnB3';
-const pulseAmount = 0.1;
-const delay = 45938;
+const id = '5XD3QQtUPPR';
+const pulseAmount = 0.07;
+const delay = 43875;
 addToTimeline(
 target.animate(
 [ {scale: '1' }, 
@@ -238,99 +226,7 @@ target.animate(
 
 window.Script7 = function()
 {
-  player.once(() => {
-const target = object('5zljIuJuySv');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '6AEPmYqBgbF';
-const pulseAmount = 0.07;
-const delay = 45938;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script8 = function()
-{
-  player.once(() => {
-const target = object('5UrMA2Ze0ik');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '6SlWD5CQTYQ';
-const pulseAmount = 0.07;
-const delay = 45938;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script9 = function()
-{
-  player.once(() => {
-const target = object('5ff96rEc9MX');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '6ilJLsRZNgM';
-const pulseAmount = 0.07;
-const delay = 45938;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script10 = function()
-{
-  player.once(() => {
-const target = object('5vnVusANncM');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '5XD3QQtUPPR';
-const pulseAmount = 0.07;
-const delay = 45938;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script11 = function()
-{
-  const target = object('5ZA8AFdk2MW');
+  const target = object('5WxBSvNv2gJ');
 const duration = 750;
 const easing = 'ease-out';
 const id = '5lMDoZaEIaA';
@@ -349,10 +245,10 @@ target.animate(
 );
 }
 
-window.Script12 = function()
+window.Script8 = function()
 {
   player.once(() => {
-const target = object('6X31E5eK3Rj');
+const target = object('6XxTWUrsFYw');
 const duration = 750;
 const easing = 'ease-out';
 const id = '5YVKjYtMFhl';
@@ -372,10 +268,10 @@ target.animate(
 });
 }
 
-window.Script13 = function()
+window.Script9 = function()
 {
   player.once(() => {
-const target = object('6B9Qe7iooRy');
+const target = object('5ZqRmexei1h');
 const duration = 750;
 const easing = 'ease-out';
 const id = '6p3LldB2IIP';
@@ -395,10 +291,10 @@ target.animate(
 });
 }
 
-window.Script14 = function()
+window.Script10 = function()
 {
   player.once(() => {
-const target = object('5t53YIGkrCS');
+const target = object('6osomE4WE1c');
 const duration = 750;
 const easing = 'ease-out';
 const id = '5bGzWiLxwVZ';
@@ -418,10 +314,10 @@ target.animate(
 });
 }
 
-window.Script15 = function()
+window.Script11 = function()
 {
   player.once(() => {
-const target = object('61hbSPQUDZa');
+const target = object('5ZsHp2ir8S8');
 const duration = 750;
 const easing = 'ease-out';
 const id = '5s5hFXNjBdZ';
@@ -441,10 +337,10 @@ target.animate(
 });
 }
 
-window.Script16 = function()
+window.Script12 = function()
 {
   player.once(() => {
-const target = object('6aA1M48qHKo');
+const target = object('6hLh3tsbzUH');
 const duration = 750;
 const easing = 'ease-out';
 const id = '5rgYSzbU15N';
@@ -464,10 +360,10 @@ target.animate(
 });
 }
 
-window.Script17 = function()
+window.Script13 = function()
 {
   player.once(() => {
-const target = object('5wDR1EqiWal');
+const target = object('6k97F4Wm2gl');
 const duration = 750;
 const easing = 'ease-out';
 const id = '6RcVGdwS5R0';
@@ -487,7 +383,7 @@ target.animate(
 });
 }
 
-window.Script18 = function()
+window.Script14 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -510,7 +406,7 @@ target.animate(
 });
 }
 
-window.Script19 = function()
+window.Script15 = function()
 {
   player.once(() => {
 const target = object('5f3aUTHjkLB');
@@ -533,7 +429,7 @@ target.animate(
 });
 }
 
-window.Script20 = function()
+window.Script16 = function()
 {
   player.once(() => {
 const target = object('6eD0XOdEwCu');
@@ -556,7 +452,7 @@ target.animate(
 });
 }
 
-window.Script21 = function()
+window.Script17 = function()
 {
   player.once(() => {
 const target = object('6kcsIPtQz7o');
@@ -579,7 +475,7 @@ target.animate(
 });
 }
 
-window.Script22 = function()
+window.Script18 = function()
 {
   player.once(() => {
 const target = object('60d5hIMW7Vl');
@@ -602,7 +498,7 @@ target.animate(
 });
 }
 
-window.Script23 = function()
+window.Script19 = function()
 {
   player.once(() => {
 const target = object('5WLIx7uYOrq');
@@ -625,7 +521,7 @@ target.animate(
 });
 }
 
-window.Script24 = function()
+window.Script20 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -648,7 +544,7 @@ target.animate(
 });
 }
 
-window.Script25 = function()
+window.Script21 = function()
 {
   const target = object('6nwEnwuAACe');
 const duration = 500;
