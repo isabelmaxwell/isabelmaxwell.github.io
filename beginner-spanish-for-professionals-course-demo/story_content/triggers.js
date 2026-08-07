@@ -2,68 +2,59 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6j0fE2hnyq1":
+      case "6XdiistpnLp":
         Script1();
         break;
-      case "5s6sEHSXgrN":
+      case "65fI35BXaJ1":
         Script2();
         break;
-      case "6SmVyPxr9hy":
+      case "6i2948uDmCM":
         Script3();
         break;
-      case "6WiGO0cs0iq":
+      case "6Nx6tWUO8r2":
         Script4();
         break;
-      case "6qZmVRe88Zx":
+      case "6EUPYYXSWEU":
         Script5();
         break;
-      case "62mnvCXhx2F":
+      case "6YiSVdsyL0h":
         Script6();
         break;
-      case "6aYKa85hunr":
+      case "5vGq5BfPYA1":
         Script7();
         break;
-      case "5nsAzbk3V5P":
+      case "6hStMNLW2IY":
         Script8();
         break;
-      case "6K7BflCymIP":
+      case "6dtdjqkEOtC":
         Script9();
         break;
-      case "6Ee4EaiOipD":
+      case "6BUGAAEOFL0":
         Script10();
         break;
-      case "5iaprmaoLdZ":
+      case "6YGdLC87deQ":
         Script11();
         break;
-      case "5fWWs6dqvFP":
+      case "5p7qqYeYcmB":
         Script12();
         break;
-      case "5ypGDRUTlQ9":
+      case "6VZZCHxOXnQ":
         Script13();
         break;
-      case "6XL5mMKbWQq":
+      case "5zV6pM9Upw4":
         Script14();
         break;
-      case "6BPqhOrB5Gr":
+      case "6ON9p8kNkxD":
         Script15();
         break;
-      case "6nqUimRQdWl":
+      case "6H97cf9KSXY":
         Script16();
         break;
-      case "66Uyde9oHRQ":
+      case "5aNnQ7jsORc":
         Script17();
         break;
-      case "5WMhpow5AeK":
+      case "6RX6U1DFi2o":
         Script18();
-        break;
-      case "5YIWUUqbwyd":
-        Script19();
-        break;
-      case "6UO4oKTYHir":
-        Script20();
-        break;
-      case "5rhIw1gRbjH":
-        Script21();
         break;
   }
 }
@@ -89,19 +80,18 @@ var keyup = player.keyup;
 window.Script1 = function()
 {
   player.once(() => {
-const target = object('5t6IcuDhoOS');
-const duration = 2000;
+const target = object('6ZZalS6MoyC');
+const duration = 750;
 const easing = 'ease-out';
-const id = '5XD3QQtUPPR';
-const pulseAmount = 0.07;
-const delay = 43875;
+const id = '6obVd8wGS1B';
+const delay = 37188;
 addToTimeline(
 target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
+[ {opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 } ]
 ,
   { fill: 'forwards', delay, duration, easing }
 ), id
@@ -113,18 +103,17 @@ window.Script2 = function()
 {
   player.once(() => {
 const target = object('6ZZalS6MoyC');
-const duration = 2000;
+const duration = 750;
 const easing = 'ease-out';
-const id = '5w5k1jPcnB3';
-const pulseAmount = 0.07;
-const delay = 43875;
+const id = '6obVd8wGS1B';
+const delay = 43500;
 addToTimeline(
 target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
+[ {opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 } ]
 ,
   { fill: 'forwards', delay, duration, easing }
 ), id
@@ -135,19 +124,18 @@ target.animate(
 window.Script3 = function()
 {
   player.once(() => {
-const target = object('5wmZk2Wfxjl');
-const duration = 2000;
+const target = object('6ZZalS6MoyC');
+const duration = 750;
 const easing = 'ease-out';
-const id = '6AEPmYqBgbF';
-const pulseAmount = 0.07;
-const delay = 43875;
+const id = '6obVd8wGS1B';
+const delay = 28375;
 addToTimeline(
 target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
+[ {opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 }, 
+{opacity: 0 }, 
+{opacity: 1 } ]
 ,
   { fill: 'forwards', delay, duration, easing }
 ), id
@@ -156,75 +144,6 @@ target.animate(
 }
 
 window.Script4 = function()
-{
-  player.once(() => {
-const target = object('5Viu8S19OuV');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '6SlWD5CQTYQ';
-const pulseAmount = 0.07;
-const delay = 43875;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script5 = function()
-{
-  player.once(() => {
-const target = object('6nC23sYWK0r');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '6ilJLsRZNgM';
-const pulseAmount = 0.07;
-const delay = 43875;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script6 = function()
-{
-  player.once(() => {
-const target = object('5t6IcuDhoOS');
-const duration = 2000;
-const easing = 'ease-out';
-const id = '5XD3QQtUPPR';
-const pulseAmount = 0.07;
-const delay = 43875;
-addToTimeline(
-target.animate(
-[ {scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' }, 
-{scale: `${1 + pulseAmount}` }, 
-{scale: '1' } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script7 = function()
 {
   const target = object('5WxBSvNv2gJ');
 const duration = 750;
@@ -245,7 +164,7 @@ target.animate(
 );
 }
 
-window.Script8 = function()
+window.Script5 = function()
 {
   player.once(() => {
 const target = object('6XxTWUrsFYw');
@@ -268,7 +187,7 @@ target.animate(
 });
 }
 
-window.Script9 = function()
+window.Script6 = function()
 {
   player.once(() => {
 const target = object('5ZqRmexei1h');
@@ -291,7 +210,7 @@ target.animate(
 });
 }
 
-window.Script10 = function()
+window.Script7 = function()
 {
   player.once(() => {
 const target = object('6osomE4WE1c');
@@ -314,7 +233,7 @@ target.animate(
 });
 }
 
-window.Script11 = function()
+window.Script8 = function()
 {
   player.once(() => {
 const target = object('5ZsHp2ir8S8');
@@ -337,7 +256,7 @@ target.animate(
 });
 }
 
-window.Script12 = function()
+window.Script9 = function()
 {
   player.once(() => {
 const target = object('6hLh3tsbzUH');
@@ -360,7 +279,7 @@ target.animate(
 });
 }
 
-window.Script13 = function()
+window.Script10 = function()
 {
   player.once(() => {
 const target = object('6k97F4Wm2gl');
@@ -383,7 +302,7 @@ target.animate(
 });
 }
 
-window.Script14 = function()
+window.Script11 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -406,7 +325,7 @@ target.animate(
 });
 }
 
-window.Script15 = function()
+window.Script12 = function()
 {
   player.once(() => {
 const target = object('5f3aUTHjkLB');
@@ -429,7 +348,7 @@ target.animate(
 });
 }
 
-window.Script16 = function()
+window.Script13 = function()
 {
   player.once(() => {
 const target = object('6eD0XOdEwCu');
@@ -452,7 +371,7 @@ target.animate(
 });
 }
 
-window.Script17 = function()
+window.Script14 = function()
 {
   player.once(() => {
 const target = object('6kcsIPtQz7o');
@@ -475,7 +394,7 @@ target.animate(
 });
 }
 
-window.Script18 = function()
+window.Script15 = function()
 {
   player.once(() => {
 const target = object('60d5hIMW7Vl');
@@ -498,7 +417,7 @@ target.animate(
 });
 }
 
-window.Script19 = function()
+window.Script16 = function()
 {
   player.once(() => {
 const target = object('5WLIx7uYOrq');
@@ -521,7 +440,7 @@ target.animate(
 });
 }
 
-window.Script20 = function()
+window.Script17 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -544,7 +463,7 @@ target.animate(
 });
 }
 
-window.Script21 = function()
+window.Script18 = function()
 {
   const target = object('6nwEnwuAACe');
 const duration = 500;
