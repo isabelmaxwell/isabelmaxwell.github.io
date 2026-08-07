@@ -2,59 +2,56 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6XdiistpnLp":
+      case "5ZyeQ1zuybQ":
         Script1();
         break;
-      case "65fI35BXaJ1":
+      case "5ZgfLbMCJ2v":
         Script2();
         break;
-      case "6i2948uDmCM":
+      case "63dGZPaZGsN":
         Script3();
         break;
-      case "6Nx6tWUO8r2":
+      case "6QzUBdfKJT1":
         Script4();
         break;
-      case "6EUPYYXSWEU":
+      case "6JlSh0qPTBX":
         Script5();
         break;
-      case "6YiSVdsyL0h":
+      case "6MRMXYb4aKA":
         Script6();
         break;
-      case "5vGq5BfPYA1":
+      case "6RnqTD2ZVFq":
         Script7();
         break;
-      case "6hStMNLW2IY":
+      case "6qpN3YScKqS":
         Script8();
         break;
-      case "6dtdjqkEOtC":
+      case "64PExLlnfSW":
         Script9();
         break;
-      case "6BUGAAEOFL0":
+      case "5iwM2gVec6b":
         Script10();
         break;
-      case "6YGdLC87deQ":
+      case "6kF5nT6tVDx":
         Script11();
         break;
-      case "5p7qqYeYcmB":
+      case "6ZreKsEvucj":
         Script12();
         break;
-      case "6VZZCHxOXnQ":
+      case "6IsB8UpOBy3":
         Script13();
         break;
-      case "5zV6pM9Upw4":
+      case "5WEaU1BVPkd":
         Script14();
         break;
-      case "6ON9p8kNkxD":
+      case "6WOCHgFvGyW":
         Script15();
         break;
-      case "6H97cf9KSXY":
+      case "5jSkZKq4o7V":
         Script16();
         break;
-      case "5aNnQ7jsORc":
+      case "64jMqnkuJpV":
         Script17();
-        break;
-      case "6RX6U1DFi2o":
-        Script18();
         break;
   }
 }
@@ -84,7 +81,7 @@ const target = object('6ZZalS6MoyC');
 const duration = 750;
 const easing = 'ease-out';
 const id = '6obVd8wGS1B';
-const delay = 37188;
+const delay = 43500;
 addToTimeline(
 target.animate(
 [ {opacity: 1 }, 
@@ -106,28 +103,6 @@ const target = object('6ZZalS6MoyC');
 const duration = 750;
 const easing = 'ease-out';
 const id = '6obVd8wGS1B';
-const delay = 43500;
-addToTimeline(
-target.animate(
-[ {opacity: 1 }, 
-{opacity: 0 }, 
-{opacity: 1 }, 
-{opacity: 0 }, 
-{opacity: 1 } ]
-,
-  { fill: 'forwards', delay, duration, easing }
-), id
-);
-});
-}
-
-window.Script3 = function()
-{
-  player.once(() => {
-const target = object('6ZZalS6MoyC');
-const duration = 750;
-const easing = 'ease-out';
-const id = '6obVd8wGS1B';
 const delay = 28375;
 addToTimeline(
 target.animate(
@@ -143,7 +118,7 @@ target.animate(
 });
 }
 
-window.Script4 = function()
+window.Script3 = function()
 {
   const target = object('5WxBSvNv2gJ');
 const duration = 750;
@@ -164,7 +139,7 @@ target.animate(
 );
 }
 
-window.Script5 = function()
+window.Script4 = function()
 {
   player.once(() => {
 const target = object('6XxTWUrsFYw');
@@ -187,7 +162,7 @@ target.animate(
 });
 }
 
-window.Script6 = function()
+window.Script5 = function()
 {
   player.once(() => {
 const target = object('5ZqRmexei1h');
@@ -210,7 +185,7 @@ target.animate(
 });
 }
 
-window.Script7 = function()
+window.Script6 = function()
 {
   player.once(() => {
 const target = object('6osomE4WE1c');
@@ -233,7 +208,7 @@ target.animate(
 });
 }
 
-window.Script8 = function()
+window.Script7 = function()
 {
   player.once(() => {
 const target = object('5ZsHp2ir8S8');
@@ -256,7 +231,7 @@ target.animate(
 });
 }
 
-window.Script9 = function()
+window.Script8 = function()
 {
   player.once(() => {
 const target = object('6hLh3tsbzUH');
@@ -279,7 +254,7 @@ target.animate(
 });
 }
 
-window.Script10 = function()
+window.Script9 = function()
 {
   player.once(() => {
 const target = object('6k97F4Wm2gl');
@@ -302,7 +277,7 @@ target.animate(
 });
 }
 
-window.Script11 = function()
+window.Script10 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -325,7 +300,7 @@ target.animate(
 });
 }
 
-window.Script12 = function()
+window.Script11 = function()
 {
   player.once(() => {
 const target = object('5f3aUTHjkLB');
@@ -348,7 +323,7 @@ target.animate(
 });
 }
 
-window.Script13 = function()
+window.Script12 = function()
 {
   player.once(() => {
 const target = object('6eD0XOdEwCu');
@@ -371,7 +346,7 @@ target.animate(
 });
 }
 
-window.Script14 = function()
+window.Script13 = function()
 {
   player.once(() => {
 const target = object('6kcsIPtQz7o');
@@ -394,7 +369,7 @@ target.animate(
 });
 }
 
-window.Script15 = function()
+window.Script14 = function()
 {
   player.once(() => {
 const target = object('60d5hIMW7Vl');
@@ -417,7 +392,7 @@ target.animate(
 });
 }
 
-window.Script16 = function()
+window.Script15 = function()
 {
   player.once(() => {
 const target = object('5WLIx7uYOrq');
@@ -440,7 +415,7 @@ target.animate(
 });
 }
 
-window.Script17 = function()
+window.Script16 = function()
 {
   player.once(() => {
 const target = object('5VI7lCczQAK');
@@ -463,7 +438,7 @@ target.animate(
 });
 }
 
-window.Script18 = function()
+window.Script17 = function()
 {
   const target = object('6nwEnwuAACe');
 const duration = 500;
