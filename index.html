@@ -87,9 +87,82 @@
       color: #6b7280;
       font-size: 0.95rem;
     }
+    body {
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: absolute;
+      border: 4px solid rgba(73, 155, 131, 0.22);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      width: 220px;
+      height: 220px;
+      top: 70px;
+      right: -70px;
+    }
+
+    body::after {
+      width: 170px;
+      height: 170px;
+      bottom: 70px;
+      left: -60px;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .decorative-circle {
+      position: absolute;
+      border: 4px solid rgba(73, 155, 131, 0.18);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .circle-one {
+      width: 80px;
+      height: 80px;
+      top: 55px;
+      right: 270px;
+    }
+
+    .circle-two {
+      width: 95px;
+      height: 95px;
+      top: 520px;
+      right: 110px;
+    }
+
+    .circle-three {
+    width: 70px;
+    height: 70px;
+    top: 235px;
+    left: 255px;
+    }
+
+    @media (max-width: 900px) {
+      body::before,
+      body::after,
+      .decorative-circle {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
+  <div class="decorative-circle circle-one"></div>
+  <div class="decorative-circle circle-two"></div>
+  <div class="decorative-circle circle-three"></div>
   <main class="container">
     <header>
       <h1>Isabel N. Maxwell</h1>
