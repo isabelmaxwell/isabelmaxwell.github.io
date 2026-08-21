@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="150" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="150" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
   <layouts>
-    <layout name="npnxnanbsnfns11111000101" font="Lato" controllayout="npnxnanbsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000101" font="Lato" controllayout="pxabnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="npxnabnsnfns11111000101" font="Lato" controllayout="npxnabnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="npnxnanbnsnfns11111000101" font="Lato" controllayout="npnxnanbnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000100" font="Lato" controllayout="pxabnsnfns11111000100" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="pxabnsnfns11111100101" font="Lato" controllayout="pxabnsnfns11111100101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="npnxnanbsnfns11111001101" font="Lato" controllayout="npnxnanbsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001101" font="Lato" controllayout="pxabnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="npxnabnsnfns11111001101" font="Lato" controllayout="npxnabnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="npnxnanbnsnfns11111001101" font="Lato" controllayout="npnxnanbnsnfns11111001101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pxabnsnfns11111001100" font="Lato" controllayout="pxabnsnfns11111001100" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
+    <layout name="pxabnsnfns11111100101" font="Lato" controllayout="pxabnsnfns11111100101" colorscheme="pxabnsnfns11111001101" string_table="pxabnsnfns11111001101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/5bRhINtQdUb.png" />
+              <option name="html5_logo_url" value="mobile/6ISM0m9jgk7.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -34,7 +34,7 @@
               <listitem name="resources" value="true" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="transcript" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
@@ -104,7 +104,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111000101">
+    <control_layout name="npnxnanbsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -121,7 +121,7 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
+      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -129,7 +129,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000101">
+    <control_layout name="pxabnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -146,7 +146,7 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
+      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -154,7 +154,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111000101">
+    <control_layout name="npxnabnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -171,7 +171,7 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
+      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -179,7 +179,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111000101">
+    <control_layout name="npnxnanbnsnfns11111001101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -196,7 +196,7 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
+      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -204,7 +204,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000100">
+    <control_layout name="pxabnsnfns11111001100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -221,7 +221,7 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
+      <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
@@ -256,7 +256,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns11111000101">
+    <colorscheme name="pxabnsnfns11111001101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1434,165 +1434,165 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns11111000101">
-      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
-      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
-      <string id="acc_correct_choice">%answer% (correct choice)</string>
-      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
-      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
-      <string id="acc_locked">locked</string>
-      <string id="acc_modern_video_captions">video captions</string>
-      <string id="acc_modern_video_fullscreen">full-screen video</string>
-      <string id="acc_modern_video_mute">mute video</string>
-      <string id="acc_modern_video_pause">pause video</string>
-      <string id="acc_modern_video_pip">picture-in-picture</string>
-      <string id="acc_modern_video_play">play video</string>
-      <string id="acc_modern_video_playback_speed">playback speed</string>
-      <string id="acc_modern_video_settings">video settings</string>
-      <string id="acc_modern_video_transcript">Transcripts</string>
-      <string id="acc_modern_video_volume">video volume</string>
-      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
-      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
-      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
-      <string id="acc_ordinal_eighth">eighth</string>
-      <string id="acc_ordinal_fifth">fifth</string>
-      <string id="acc_ordinal_first">first</string>
-      <string id="acc_ordinal_fourth">fourth</string>
-      <string id="acc_ordinal_ninth">ninth</string>
-      <string id="acc_ordinal_second">second</string>
-      <string id="acc_ordinal_seventh">seventh</string>
-      <string id="acc_ordinal_sixth">sixth</string>
-      <string id="acc_ordinal_tenth">tenth</string>
-      <string id="acc_ordinal_third">third</string>
-      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
-      <string id="acc_play">Play (Ctrl+Alt+P)</string>
-      <string id="acc_playback_speed">Playback speed</string>
-      <string id="acc_played">%time% played</string>
-      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
-      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
-      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
-      <string id="acc_search_input">search</string>
-      <string id="acc_search_result_status">%count% result found for %term%</string>
-      <string id="acc_search_results_status">%count% results found for %term%</string>
-      <string id="acc_select_an_option">Select an option</string>
-      <string id="acc_settings">Settings</string>
-      <string id="acc_skipnavigation">Back to top</string>
-      <string id="acc_slide_progress">slide progress</string>
-      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
-      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
-      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
-      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
-      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
-      <string id="acc_video_transcript_list">Transcript</string>
-      <string id="acc_visited">visited</string>
-      <string id="acc_window_close">Close</string>
-      <string id="acc_window_move">Move window</string>
-      <string id="acc_window_options">Options</string>
-      <string id="acc_window_resize">Resize window</string>
-      <string id="accessible_text">Accessible text</string>
-      <string id="acctext_shortcut">Toggle accessible text</string>
-      <string id="action">Action</string>
-      <string id="alt_key">Alt</string>
-      <string id="background_audio">Background audio</string>
-      <string id="background_audio_shortcut">Toggle background audio</string>
-      <string id="clear">Clear and return to menu</string>
-      <string id="close">Close</string>
-      <string id="closed_captions">Captions</string>
-      <string id="closedcaptions_shortcut">Toggle captions</string>
-      <string id="comma_key">Comma</string>
-      <string id="continueresponsive">Continue</string>
-      <string id="ctrl_key">Ctrl</string>
-      <string id="desktop_start">Start Course</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
-      <string id="filter">Filter</string>
-      <string id="fullscreen_shortcut">Toggle full-screen</string>
-      <string id="glossary">Glossary</string>
-      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
-      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
-      <string id="mobile_start">Start Course</string>
-      <string id="modern_video_captions_label">Captions</string>
-      <string id="modern_video_captions_off">Hide</string>
-      <string id="modern_video_captions_on">Show</string>
-      <string id="modern_video_normal_speed">Normal</string>
-      <string id="modern_video_playback_settings">Video Playback Settings</string>
-      <string id="modern_video_playback_speed_title">Playback Speed</string>
-      <string id="modern_video_settings_close">close video settings</string>
-      <string id="mute_shortcut">Mute / unmute</string>
-      <string id="next">NEXT</string>
-      <string id="next_shortcut">Next</string>
-      <string id="outline">Menu</string>
-      <string id="outline_container">Menu</string>
-      <string id="period_key">Period</string>
-      <string id="playback_speed_normal">Normal</string>
-      <string id="playback_speed_title">Playback Speed</string>
-      <string id="playpause_shortcut">Play / pause</string>
-      <string id="prev">PREV</string>
-      <string id="previous_shortcut">Previous</string>
-      <string id="progress_hour">hour</string>
-      <string id="progress_hours">hours</string>
-      <string id="progress_minute">minute</string>
-      <string id="progress_minutes">minutes</string>
-      <string id="progress_second">second</string>
-      <string id="progress_seconds">seconds</string>
-      <string id="question_mark_key">Question mark</string>
-      <string id="replay_shortcut">Replay</string>
-      <string id="resources">Resources</string>
-      <string id="restart">Restart</string>
-      <string id="resume">Resume</string>
-      <string id="search">Search:</string>
-      <string id="search_in">Search in:</string>
-      <string id="search_results">Search Results</string>
-      <string id="search_toggle">Search</string>
-      <string id="shift_key">Shift</string>
-      <string id="shortcut">Shortcut</string>
-      <string id="shortcuthelp">List keyboard shortcuts</string>
-      <string id="sidebar_toggle">Sidebar Toggle</string>
-      <string id="slide_text_chk">Slide Text</string>
-      <string id="streaming_video_local_playback_learn_more">Learn More</string>
-      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
-      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
-      <string id="submit">SUBMIT</string>
-      <string id="submit_shortcut">Submit</string>
-      <string id="terms">Terms</string>
+    <string_table name="pxabnsnfns11111001101">
+      <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
       <string id="three_image_camera_left">camera moved left</string>
       <string id="three_image_camera_right">camera moved right</string>
       <string id="three_image_camera_up">camera moved up</string>
-      <string id="three_image_count_of_total">%count% of %total%</string>
-      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
-      <string id="three_image_hotspot">hotspot</string>
-      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
-      <string id="three_image_interaction">360 degree image interaction</string>
       <string id="three_image_interaction_free">free exploration mode</string>
       <string id="three_image_interaction_guided">guided tour mode</string>
-      <string id="three_image_interaction_next">next</string>
-      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
       <string id="three_image_label">label</string>
       <string id="three_image_marker">marker</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="three_image_interaction_next">next</string>
       <string id="three_image_pause_audio">pause audio</string>
       <string id="three_image_pause_video">pause video</string>
       <string id="three_image_play_audio">play audio</string>
       <string id="three_image_play_video">play video</string>
-      <string id="three_image_progress_audio">progress</string>
-      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_tooltip">tooltip</string>
-      <string id="three_image_total_item">%total% item</string>
       <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Hide</string>
+      <string id="modern_video_captions_on">Show</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="closed_captions">Captions</string>
+      <string id="comma_key">Comma</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="next">NEXT</string>
+      <string id="prev">PREV</string>
+      <string id="submit">SUBMIT</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="continue">Continue</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
       <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
       <string id="transcript">Notes</string>
-      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="period_key">Period</string>
+      <string id="question_mark_key">Question mark</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="close">Close</string>
+      <string id="acc_select_an_option">Select an option</string>
+      <string id="acc_ordinal_eighth">eighth</string>
+      <string id="acc_ordinal_fifth">fifth</string>
+      <string id="acc_ordinal_first">first</string>
+      <string id="acc_ordinal_fourth">fourth</string>
+      <string id="acc_locked">locked</string>
+      <string id="outline_container">Menu</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_ordinal_ninth">ninth</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="acc_correct_choice">%answer% (correct choice)</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_search_result_status">%count% result found for %term%</string>
+      <string id="acc_search_results_status">%count% results found for %term%</string>
+      <string id="acc_ordinal_second">second</string>
+      <string id="acc_played">%time% played</string>
+      <string id="acc_ordinal_seventh">seventh</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_ordinal_sixth">sixth</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_ordinal_tenth">tenth</string>
+      <string id="acc_ordinal_third">third</string>
+      <string id="acc_visited">visited</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="search_in">Search in:</string>
+      <string id="filter">Filter</string>
+      <string id="search">Search:</string>
       <string id="transcript_chk">Notes</string>
-      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="search_results">Search Results</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcript</string>
       <string id="video_transcript_mobile_label">Transcript</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Transcripts</string>
+      <string id="acc_window_resize">Resize window</string>
       <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
       <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
       <string id="video_transcript_title">Transcript</string>
-      <string id="zoom_to_fit">Zoom to fit</string>
-      <string id="continue">Continue</string>
+      <string id="acc_window_options">Options</string>
       <string id="invalid_prompt_button">OK</string>
       <string id="invalid_prompt_message">You must complete the question before submitting.</string>
       <string id="invalid_prompt_title">Invalid Answer</string>
@@ -1648,6 +1648,884 @@
     </outline>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
-  <transcript_data />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6iRUjXnSk1k.5VfPTUOND02" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Welcome to Spanish Learning Academy’s Beginner Spanish for Professionals course.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In this course, you'll learn the essentials of navigating Spanish conversations with clients, stakeholders, and coworkers.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Before we begin, here are a few tips to help you get the most out of this lesson.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This lesson takes approximately 15 minutes to complete.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="For the best listening experience, we recommend using headphones.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As you learn, repeat each sound aloud as you hear it. This will help strengthen your pronunciation and listening comprehension.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="When you're ready, select the Next button to begin.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xD;" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iRUjXnSk1k.5oBgpaqlpq0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Let’s take a quick look at what you'll learn today.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="By the end of this lesson, you'll be able to: recognize the five Spanish vowel sounds, practice pronouncing each vowel aloud, use those sounds to begin reading Spanish words, and build a strong foundation for natural Spanish pronunciation.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="When you're ready, select the Next button to continue." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="67VZuTBYlkp.6bgKd6ZakhB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's time to meet the five Spanish vowels, or " /&gt;
+      &lt;Span Text="las vocales"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=". &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="A, E, I, O, U.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Unlike in English, each Spanish vowel has one clear, consistent sound that never changes.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select each vowel below to hear its pronunciation, discover an example word, and practice saying it aloud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Once you've explored all five vowels, select the Next button to continue.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="La letra " /&gt;
+      &lt;Span Text="A "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="/ah/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", or the letter " /&gt;
+      &lt;Span Text="“A” "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in English, is pronounced ah in Spanish and always makes the " /&gt;
+      &lt;Span Text="/ah/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="sound, just like the " /&gt;
+      &lt;Span Text="/ah/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in the word " /&gt;
+      &lt;Span Text="farm."&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Listen carefully to the pronunciation of the Spanish word for apple.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Manzana /mahn-sahn-nah/.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One more time.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Manzana " /&gt;
+      &lt;Span Text="/mahn-sahn-nah/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's your turn. Say manzana " /&gt;
+      &lt;Span Text="/mahn-sahn-nah/ "&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="out loud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Great job! Select the Return To The Vowels button to continue exploring.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="La letra " /&gt;
+      &lt;Span Text="E "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="/eh/, "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or the letter " /&gt;
+      &lt;Span Text="“E” "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in English, is pronounced " /&gt;
+      &lt;Span Text="/eh/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in Spanish and always makes the " /&gt;
+      &lt;Span Text="/eh/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="sound, just like the e in the word bed.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Listen carefully to the pronunciation of the Spanish word for elephant.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Elefante /eh-leh-fahn-teh/.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One more time.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Elefante " /&gt;
+      &lt;Span Text="/eh-leh-fahn-teh/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's your turn. Say elefante " /&gt;
+      &lt;Span Text="/eh-leh-fahn-teh/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" out loud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Nice work! Select the Return To The Vowels button to continue exploring.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;La letra " /&gt;
+      &lt;Span Text="I"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" " /&gt;
+      &lt;Span Text="/ee/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" , or the letter " /&gt;
+      &lt;Span Text="“I” "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="English, is pronounced " /&gt;
+      &lt;Span Text="/ee/ "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in Spanish and always makes the " /&gt;
+      &lt;Span Text="/ee/ "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="sound, just like the " /&gt;
+      &lt;Span Text="/ee/ "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in the word s" /&gt;
+      &lt;Span Text="ee."&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Listen carefully to the pronunciation of the Spanish word for magnet.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Imán /ee-mahn/.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One more time.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Imán " /&gt;
+      &lt;Span Text="/ee-mahn/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's your turn. Say imán " /&gt;
+      &lt;Span Text="/ee-mahn/ "&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="out loud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Excellent! Select the Return To The Vowels button to continue exploring.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xD;La letra " /&gt;
+      &lt;Span Text="O"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" " /&gt;
+      &lt;Span Text="/oh/ "&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", or the letter " /&gt;
+      &lt;Span Text="“O” "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in English, is pronounced " /&gt;
+      &lt;Span Text="/oh/ "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in Spanish and always makes the " /&gt;
+      &lt;Span Text="/oh/"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" sound, just like the " /&gt;
+      &lt;Span Text="/oh/ "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in the word " /&gt;
+      &lt;Span Text="for.&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="False" FontIsUnderline="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Listen carefully to the pronunciation of the Spanish word for bear."&gt;
+        &lt;Style FontIsItalic="False" FontIsUnderline="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Oso /oh-soh/.&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One more time."&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Oso " /&gt;
+      &lt;Span Text="/oh-soh/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's your turn. Say oso " /&gt;
+      &lt;Span Text="/oh-soh/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" out loud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Well done! Select the Return To The Vowels button to continue exploring.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="                &amp;#xA;"&gt;
+        &lt;Style FontIsUnderline="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="La letra " /&gt;
+      &lt;Span Text="U"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" " /&gt;
+      &lt;Span Text="/ooh/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" , or the letter “" /&gt;
+      &lt;Span Text="U”"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" in English, is pronounced /" /&gt;
+      &lt;Span Text="ooh/"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" in Spanish and always makes the " /&gt;
+      &lt;Span Text="/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="ooh/ "&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="sound, just like the " /&gt;
+      &lt;Span Text="/"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="ooh/"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in the word moon" /&gt;
+      &lt;Span Text="."&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Listen carefully to the pronunciation of the Spanish word for moon.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Luna " /&gt;
+      &lt;Span Text="/loon-ah/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One more time.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Luna " /&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="/loon-ah/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now it's your turn. Say luna " /&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="/loon-ah/"&gt;
+        &lt;Style FontIsItalic="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" out loud.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Fantastic! Select the Return To The Vowels button to continue exploring.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Congratulations! You've learned how to pronounce the five Spanish vowels. Select any vowel to review its pronunciation and example word, or select the Next button to continue.&amp;#xD;&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.5u14YhrXBLq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Welcome to the Puerto Rican market, or"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" El Mercado Puertorriqueño"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" FontIsItalic="True" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="!&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Let’s put what you just learned in the previous exercise to the test.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Visit all five stalls below to complete each listening challenge and earn points.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="You must successfully complete at least 4 of the 5 stalls in order to pass. You can retry as many times as you need.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="Excelente Trabajo (excellent work)! You’ve successfully completed all five market stalls and answered each question correctly!&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style Justification="Left" /&gt;
+      &lt;Span Text="When you’re ready, select the Next button to conclude this lesson. "&gt;
+        &lt;Style FontFamily="Lato" FontIsBold="False" ForegroundColor="#0A0A0A" LinkColor="#0A0A0A" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.655yPvXwiu2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Which vowel sound do you hear in the second syllable? Me-lón, Me-lón&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select the speaker button to hear the word again. "&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.5jK3WmuTZdP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Which vowel sound do you hear in the first syllable? Biz-co-cho, Biz-co-cho&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select the speaker button to hear the word again. "&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.66MSd19kOav" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Which vowel sound do you hear in the second syllable? Gi-ra-sol, Gi-ra-sol&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select the speaker button to hear the word again. "&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.6oY53SBl7qR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Which vowel sound do you hear in the second syllable? Ban-de-ra, Ban-de-ra&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select the speaker button to hear the word again. "&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZDZ3JPcepu.69YaftoHspl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Which vowel sound do you hear in the first syllable? Yu-ca, Yu-ca&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Select the speaker button to hear the word again. "&gt;
+        &lt;Style FontFamily="Lato" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6VSJGofEnVc.5oQU0UzTpcG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="¡Felicidades! Congratulations on completing your first Spanish lesson!&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Today you successfully recognized the five Spanish vowel sounds, practiced pronouncing each one aloud, applied your listening skills in the Puerto Rican Market, and most importantly, you've built a strong foundation for speaking Spanish confidently. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="These vowel sounds are the key to clear Spanish pronunciation, and you'll continue building on them throughout the rest of this course.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Take a moment to celebrate your progress. You've earned it!&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="When you're ready, select the Next button to continue to Lesson Two. ¡Hasta la próxima!&amp;#xD;" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6VSJGofEnVc.5WzIbfiyrhA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Thank you for completing this lesson! &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="You may now close your browser window or select the Next button to continue to Lesson 2. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
   <glossary_data />
 </bwFrame>
