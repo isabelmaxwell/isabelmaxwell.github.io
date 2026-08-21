@@ -2337,7 +2337,10 @@
     &lt;/Block&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
-      &lt;Span Text="AI-powered analytics are the key to unlocking these hidden capabilities. &amp;#xA;" /&gt;
+      &lt;Span Text="Without organized data, our decision engine cannot forecast risks or identify market trends. "&gt;
+        &lt;Style FontIsBold="False" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
