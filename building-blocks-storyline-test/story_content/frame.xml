@@ -63,8 +63,8 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="false" />
-              <option name="readonlyOnce" value="false" />
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
